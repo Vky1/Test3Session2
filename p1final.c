@@ -1,7 +1,7 @@
 #include<stdio.h>
 void input(int *num1, int *den1, int *num2, int *den2)
 {
-  printf("enter numerator 1 , enter denominator 1 , enter numerator 2 , enter denominator 2 \n");
+  printf("enter num 1 , enter denr 1 , enter num 2 , enter deno 2 \n");
   scanf("%d%d%d%d",num1,den1,num2,den2);
 }
 void add(int num1,int den1, int num2, int den2, int *num3, int *den3)
