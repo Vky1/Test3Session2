@@ -12,10 +12,9 @@ F input_fraction()
 }
 F Largest_fraction(F f1,F f2,F f3)
 {
-    int cd=f1.den*f2.den*f3.den;
-    int f1num=(f1.num*cd)/f1.den;
-    int f2num=(f2.num*cd)/f2.den;
-    int f3num=(f3.num*cd)/f3.den;
+    int f1num=(f1.num)/f1.den;
+    int f2num=(f2.num)/f2.den;
+    int f3num=(f3.num)/f3.den;
     if(f1num>f2num && f1num>f3num)
     {
         return f1;
